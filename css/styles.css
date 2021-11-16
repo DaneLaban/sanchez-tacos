@@ -2,6 +2,47 @@ body {
   text-align: center;
 }
 
-a {
-  color: black;
+/* CONTAINERS */
+.container-fluid {
+  padding: 7% 15%;
 }
+
+/* NAVBAR */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* LIST TOP-RIGHT NAVBAR */
+.nav-item {
+  padding: 0 18px;
+  color: white;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+#title .container-fluid {
+  padding: 3% 15%;
+  text-align: left;
+}
+
+/* Footer Section */
+/* #footer .footing {
+  background-color: red;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.sm-icon {
+  margin: 10px 10px;
+}
+
+.copyright {
+  margin: 10px 10px;
+} */
