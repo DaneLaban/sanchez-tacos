@@ -1,8 +1,19 @@
 /* FONTS
-font-family: 'Roboto Slab', serif; */
+font-family: 'Roboto Slab', serif;
+font-family: 'Lobster', cursive; */
 
 body {
   text-align: center;
+}
+
+p {
+  font-family: "Roboto Slab", serif;
+  font-size: 25px;
+}
+
+h4 {
+  font-family: "Lobster", cursive;
+  font-size: 35px;
 }
 
 a,
@@ -20,6 +31,7 @@ span {
   display: inline-block;
 }
 
+/* TITLE SECTION */
 #title {
   background-color: green;
   background: url("https://duyt4h9nfnj50.cloudfront.net/resized/1540306528642-w2880-12.jpg")
@@ -30,6 +42,17 @@ span {
   height: 100vh;
   width: 100%;
   opacity: 1;
+  margin-bottom: -20px;
+}
+
+/* MENU SECTION */
+#sanchez-menu {
+  background-color: beige;
+  margin-bottom: -20px;
+}
+
+/* CATERING SECTION */
+#catering {
 }
 
 /* BG-IMAGE UPPER PORTION SLIGHTLY BLURED */
@@ -62,49 +85,37 @@ span {
   text-align: left;
 }
 
-/* Footer Section */
-#footer .footing {
-  background-color: red;
-  padding-top: 2%;
-  padding-bottom: 2%;
-}
-
-#footer {
-  margin-bottom: 0;
-}
-.sm-icon {
-  margin: 10px 10px;
-}
-
-.copyright {
-  margin: 10px 10px;
-}
-
+/* SANCHEZ NAMED CURLED IN TITLE SECTION */
 .sanchez-curled {
   text-align: center;
   font-size: 100px;
-  color: white;
+  color: red;
+  -webkit-text-stroke: 1px white;
   letter-spacing: 0;
   font-family: "Roboto Slab", serif;
   font-weight: 900;
 }
 
+/* TACOS BENEATH CURLED NAME IN TITLE SECTION */
 .tacos {
   text-align: center;
   font-size: 100px;
-  color: white;
+  color: red;
+  -webkit-text-stroke: 1px white;
   letter-spacing: 0.5rem;
   font-family: "Roboto Slab", serif;
   font-weight: 900;
   margin-top: 10px;
 }
 
+/* SLOGAN IN TITLE SECTION */
 .tamf {
-  color: white;
+  color: red;
+  -webkit-text-stroke: 1px white;
   font-family: "Roboto Slab", serif;
-  font-weight: 400;
+  font-weight: 900;
   margin-top: -25px;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 /* CREATES A CURVED TEXT */
@@ -136,11 +147,83 @@ span {
   transform: translate(-20px, 60px) rotate(30deg);
 }
 
+/* PLACEMENT OF MIDDLE LOGO */
 #sanchez-middle-logo {
   font-weight: 900;
   letter-spacing: 2px;
   opacity: 1;
   margin-top: 10%;
+}
+
+.menu,
+.catering {
+  color: black;
+  font-family: "Lobster", cursive;
+  font-size: 100px;
+  padding-top: 2%;
+}
+
+.breakAbove {
+  background-image: url("https://www.pngall.com/wp-content/uploads/11/Red-Border-PNG-Image-File-180x180.png");
+  background-position: bottom;
+  height: 30px;
+}
+
+.breakBelow {
+  background-image: url("https://www.pngall.com/wp-content/uploads/11/Red-Border-PNG-Image-File-180x180.png");
+  background-position: top;
+  height: 30px;
+}
+
+.food-pictures {
+  width: 50vh;
+  height: 40vh;
+  margin: 10% 0 5% 0;
+}
+
+.food-description {
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  padding: 0 10%;
+}
+
+/* CATERING PACKAGES */
+li {
+  font-size: 25px;
+  text-align: left;
+  margin: 0 5%;
+}
+
+h2 {
+  font-family: "Roboto Slab", serif;
+  text-decoration: 1px underline;
+  font-size: 50px;
+  margin: 10% 25% 10% 25%;
+}
+
+/* FOOTER SECTION */
+.footing {
+  background-color: red;
+  padding: 2%;
+}
+
+.address,
+.number {
+  margin: 0;
+}
+
+.phone,
+.location {
+  text-decoration: 1px underline;
+}
+
+/* SOCIAL MEDIA ICONS */
+.sm-icon {
+  margin: 10px 10px;
+}
+
+.copyright {
+  margin: 10px 10px;
 }
 
 /* HIDES MID-LOGO WHEN SCREEN GETS TO CERTAIN SIZE */
