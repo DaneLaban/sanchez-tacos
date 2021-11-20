@@ -65,6 +65,7 @@ span {
 /* CONTAINERS */
 .container-fluid {
   padding: 7% 15%;
+  width: 100%;
 }
 
 /* NAVBAR */
