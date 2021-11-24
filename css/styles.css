@@ -8,7 +8,7 @@ body {
   height: 100%;
 }
 
-p {
+.menu-slogan {
   font-family: "Roboto Slab", serif;
   font-size: 25px;
 }
@@ -232,7 +232,7 @@ p,
 }
 
 /* HIDES MID-LOGO WHEN SCREEN GETS TO CERTAIN SIZE */
-@media only screen and (max-width: 695px) {
+@media only screen and (max-width: 800px) {
   #sanchez-middle-logo {
     display: none;
   }
