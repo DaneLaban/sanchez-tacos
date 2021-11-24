@@ -199,25 +199,25 @@ h2 {
   font-family: "Roboto Slab", serif;
   text-decoration: 1px underline;
   font-size: 50px;
-  margin: 10% 25% 10% 25%;
+  margin: 10% 15% 10% 15%;
 }
 
 /* FOOTER SECTION */
-.footing {
+.footer {
   background-color: red;
-  padding: 2%;
+  padding: 0;
+}
+
+.location,
+.phone {
+  font-family: "Roboto Slab", serif;
+  text-decoration: 1px underline;
 }
 
 .address,
 .telephone {
+  font-size: 18px;
   margin: 0;
-  font-size: 12px;
-}
-
-.phone,
-.location {
-  font-size: 15px;
-  text-decoration: 1px underline;
 }
 
 /* SOCIAL MEDIA ICONS */
@@ -227,7 +227,7 @@ h2 {
 
 .copyright {
   margin: 10px 10px;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 /* HIDES MID-LOGO WHEN SCREEN GETS TO CERTAIN SIZE */
