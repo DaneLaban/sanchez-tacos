@@ -212,11 +212,12 @@ h2 {
 .phone {
   font-family: "Roboto Slab", serif;
   text-decoration: 1px underline;
+  font-size: 1.5vw;
 }
 
 .address,
 .telephone {
-  font-size: 18px;
+  font-size: 1vw;
   margin: 0;
 }
 
@@ -227,16 +228,12 @@ h2 {
 
 .copyright {
   margin: 10px 10px;
-  font-size: 18px;
+  font-size: 1vw;
 }
 
 /* HIDES MID-LOGO WHEN SCREEN GETS TO CERTAIN SIZE */
 @media only screen and (max-width: 800px) {
   #sanchez-middle-logo {
     display: none;
-  }
-
-  .telephone {
-    font-size: 15px;
   }
 }
