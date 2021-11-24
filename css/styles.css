@@ -213,6 +213,7 @@ h2 {
 .address,
 .telephone {
   margin: 0;
+  font-size: 12px;
 }
 
 .phone,
